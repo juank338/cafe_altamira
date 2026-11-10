@@ -45,4 +45,8 @@ lista de verificación y demuestras que se cumple.
 
 ## Mi lista de verificación
 
-<!-- Escribe aquí tus 5 o más verificaciones -->
+[x] Dado que presiono la tecla Tab en el formulario, puedo observar el nombre, el correo, las catas y el botón en orden.
+[x] Dado que cargo la página, el primer enlace lleva directo a "contenido".
+[x] Dado que reviso la estructura, hay un solo "h1" como se pedia en los requrimientos.
+[x] Dado que analizo los gráficos, las imágenes tienen sus atributos "alt" descriptivos para la adecuada navegabilidad del usuario.
+[x] Dado que envío el formulario vacío, se exigen los campos obligatorios.

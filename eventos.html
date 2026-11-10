@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catas de Café - Café Altamira</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header>
+    <a class="logo" href="index.html">
+      <img src="img/grano.svg" alt="" width="28" height="28">
+      Café Altamira
+    </a>
+    <nav aria-label="Principal">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="eventos.html" aria-current="page">Catas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <h1>Próximas Catas de Café</h1>
+    <p>Inscríbete en nuestras catas exclusivas y vive la experiencia del café de especialidad.</p>
+
+    <section id="lista-catas">
+      <h2>Catas Disponibles</h2>
+      <article>
+        <h3>Cata de Orígenes de Risaralda</h3>
+        <p><time datetime="2026-11-20T16:00">20 de Noviembre de 2026, 4:00 p.m.</time></p>
+        <p>Cupos disponibles: 10</p>
+        <p class="precio">$45.000</p>
+      </article>
+      <article>
+        <h3>Cata de Cafés Honey y Naturales</h3>
+        <p><time datetime="2026-11-27T16:00">27 de Noviembre de 2026, 4:00 p.m.</time></p>
+        <p>Cupos disponibles: 8</p>
+        <p class="precio">$50.000</p>
+      </article>
+      <article>
+        <h3>Cata Especial Geisha</h3>
+        <p><time datetime="2026-12-04T16:00">4 de Diciembre de 2026, 4:00 p.m.</time></p>
+        <p>Cupos disponibles: 5</p>
+        <p class="precio">$70.000</p>
+      </article>
+    </section>
+
+    <section id="suscripcion">
+      <h2>Inscripción a Catas</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <fieldset>
+          <legend>Seleccione la cata de su preferencia</legend>
+          <label>
+            <input type="radio" name="cata" value="origenes" required> Cata de Orígenes de Risaralda
+          </label>
+          <label>
+            <input type="radio" name="cata" value="honey"> Cata de Cafés Honey y Naturales
+          </label>
+          <label>
+            <input type="radio" name="cata" value="geisha"> Cata Especial Geisha
+          </label>
+        </fieldset>
+
+        <div>
+          <label>
+            <input type="checkbox" name="terminos" required> Acepto el tratamiento de datos
+          </label>
+        </div>
+
+        <button type="submit">Inscribirme</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      Calle 10 # 5-20, Dosquebradas<br>
+      Teléfono: (606) 324 5000
+    </address>
+  </footer>
+</body>
+</html>
